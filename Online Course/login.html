@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script defer src="loginmain.js"></script>
+    <style>
+
+        body{
+            margin-bottom: 4px;
+            background-image:url("img/bck3.jpg");
+            background-size:cover;
+        }
+
+        form{
+            background-color:#fff;
+            margin-top:6em;
+            margin-left:40em;
+            margin-right:10em;
+            padding:30px;
+            box-shadow:10px 10px 8px 10px #888888; 
+        }
+
+    </style>
+    <title>Register</title>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img class="logo" src="img/edu.png"/></a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="login.html">Login/SignUp</a></li>
+            </ul>
+        </div>
+    </section>    
+
+    <div id="error" class="errclass"> </div>
+<form id="form">
+  <div class="mb-3">
+    <label for="email" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="password" class="form-label">Password</label>
+    <input type="password" class="form-control" id="password" name="password">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  <p style="text-align:center;">New User?<br>Create Account <a href="register.html">Sign Up</a></p>
+</form>
+<!-- <script src="main.js"></script> -->
+</body>
+</html>
